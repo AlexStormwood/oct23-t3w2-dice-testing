@@ -1,0 +1,13 @@
+{
+  "name": "oct23-t3w2-dice-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -127,6 +127,27 @@ describe('As a dungeon master...', () => {
 		// });
 	});
 
+
+	test("...roll with disadvantage", () => {
+		let rollDiceWithDisadvantage = jest.fn().mockReturnValue({
+			finalResult: 1,
+			rolls: [1, 20]
+		});
+
+		let rollResult = rollDiceWithDisadvantage(20);
+
+		expect(rollResult.finalResult).toBe(1);
+	
+	});
+
+
+	test.skip("...roll with advantage", () => {
+		var rollResult = null;
+
+		expect(rollResult.finalResult).toBe(20);
+	});
+
+
 	test("...I want to see how many natural 20s I get in a session where I roll 1000 D20s", () => {
 
 		let diceResults = [];

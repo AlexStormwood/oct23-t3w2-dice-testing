@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test-cc": "jest --coverage",
     "start": "node src/index.js"
   },
   "keywords": [],
